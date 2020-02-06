@@ -1,0 +1,31 @@
+/*------------------------------------------------------------
+footer
+------------------------------------------------------------*/
+.c-footer{
+    margin-top: 50px;
+    .l-container{
+        display: flex;
+    }
+    &__left{
+        img{
+            margin-bottom: 24px;
+            margin-left: 55px;
+        }
+        p{
+            font-weight: bold;
+            line-height: 1.786;
+            padding-left: 11px;
+        }
+    }
+    &__center{
+        margin: 0 38px;
+    }
+    &__copy{
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 2;
+        color: #fff;
+        padding: 10px 0px;
+        background-color: #1e1e1e;
+    }
+}

@@ -1,0 +1,25 @@
+/* layout
+------------------------------------------------------------*/
+body{
+	font-family: $mainFonts;
+	font-size: 1.4rem;
+	min-width: $baseWidth;
+	line-height: 1.5;
+	@include breakpoint(sp) {
+		min-width: 320px;
+	}
+}
+//-------------------------------------------------------
+main{
+	// padding: 0px 0 100px;
+}
+
+section{
+	padding: 50px 0 90px;
+}
+
+//-------------------------------------------------------
+.l-container{
+	max-width: $baseWidth;
+	margin: 0 auto;
+}

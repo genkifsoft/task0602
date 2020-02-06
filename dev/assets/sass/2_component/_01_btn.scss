@@ -1,0 +1,63 @@
+/*------------------------------------------------------------
+btn
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+.btn-item{
+    display: flex;
+}
+.btn-item--pading{
+    padding: 7px 11px;
+}
+.btn-border--gray{
+    border: 2px solid $colorGray;
+}
+.btn-border--green{
+    border: 2px solid $colorGreen;
+}
+.btn-background--green{
+    background-color: $colorGreen;
+}
+.btn-align-center{
+    display: flex;
+    align-items: center;
+}
+.btn-margin-right18{
+    margin-right: 18px;
+}
+.btn-marginLeftRight{
+    margin-left: -5px;
+    margin-right: 14px;
+}
+.btn-menu--last{
+    padding: 6px 33px;
+    background-image: linear-gradient(to right, #ef2f2a, #c11312);
+    color: #fff;
+}
+.btn-marginLeft-19{
+    margin-left: -19px;
+}
+.box-margin--right{
+    margin-right: 10px;
+}
+.box-margin--left{
+    margin-left: 10px;
+}
+.c-btn--wrapper{
+    color: #fff;
+    justify-content: center;
+    border: 2px solid #fff;
+    padding: 7px;
+    display: flex;
+    position: relative;
+}
+.btn-direction{
+    margin-right: 0px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.btn-text1{
+    margin-left: -10px;
+}

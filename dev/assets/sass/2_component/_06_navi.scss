@@ -1,0 +1,38 @@
+/*------------------------------------------------------------
+navi
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+.c-nav{
+    overflow-y: scroll;
+    height: 400px;
+    font-size: 1.6rem;
+    text-align: left;
+    width: calc(100% - 98px);
+    float: right;
+    li{
+        // margin-bottom: 30px
+    }
+    li:before{
+        background-image: url(../img/line.png);
+        background-repeat: repeat-x;
+        content: "";
+        display: block;
+        padding-top: 25px;
+        height: 1px;
+    }
+    li:after{
+        padding-bottom:  20px;
+        content: "";
+        display: block;
+    }
+    li:last-child:after{
+        background-image: url(../img/line.png);
+        background-repeat: repeat-x;
+        content: "";
+        display: block;
+        margin-top: 21px;
+        height: 1px;
+    }
+}
